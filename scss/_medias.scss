@@ -1,0 +1,76 @@
+/*medias para tablet y escritorio*/
+
+
+@media screen and (min-width:720px){
+    .galeria {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas:
+         "img1 img2 "
+         "img3 img4 "
+         "img5 img6 "
+         "img7 img8 "
+         "img9 img10"
+         "img11 img12"
+         "img13 img14"
+        ;
+      
+    }
+    .li{
+        font-size: 1rem;
+    }
+
+    .imagenChequeo{
+        height: 1000px;
+    }
+    .padreEstudios{
+      display: flex;
+      flex-flow: row wrap;
+    }
+    .especialidades{
+        font-size: 3rem;
+    }
+    .chequeo{
+        display: none;
+        
+     }
+
+}
+
+@media screen and (min-width:1360px){
+    .galeria {
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-template-areas:
+         "img1 img2 img3"
+         "img4 img5 img6"
+         "img7 img8 img9"
+         "img10 img11 img12"
+         "img13 img14"
+        ;
+      
+       
+    }
+    .li{
+        font-size: 1rem;
+    }
+    .footer{
+            
+        font-size:40px;
+        
+    }
+    .imagenChequeo{
+        height: 1200px;
+    }
+
+    .padreEstudios{
+        display: flex;
+        flex-flow: row wrap;
+        flex-wrap: wrap;
+    }
+.chequeo{
+    display: none;
+
+}
+
+}

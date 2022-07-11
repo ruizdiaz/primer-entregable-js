@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.tamLogo {
+  width: 100px;
+  height: 100px; }
+
+.nav-link {
+  color: white; }
+
+.sanitosNav {
+  background-color: #696969;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  height: auto;
+  width: auto; }
+
+/*las contiene todas las paginas*/
+h1 {
+  font-family: impact sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: gainsboro;
+  text-transform: uppercase; }
+
+.especialidades {
+  font-size: 1rem;
+  text-align: center;
+  height: 80px;
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.btn {
+  background-color: #DCDCDC;
+  margin: 10px; }
+
+.card-img {
+  width: 100%;
+  height: 290px;
+  text-align: center; }
+
+.contacto {
+  font-size: 1rem; }
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold; }
+
+/*el cuerpo de todas las paginas*/
+body {
+  font-family: 'Roboto', sans-serif;
+  position: relative; }
+
+.imagenChequeo {
+  height: 500px; }
+
+/*inicio y contacto*/
+section {
+  grid-area: section;
+  background-color: #DCDCDC;
+  color: black;
+  text-transform: uppercase;
+  padding: auto;
+  margin: auto; }
+
+/*css de pagina especialidades*/
+.galeria {
+  display: grid;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(14, 1fr);
+  grid-template-areas: "img1" "img2" "img3" "img4" "img5" "img6" "img7" "img8" "img9" "img10" "img11" "img12" "img13" "img14";
+  gap: 50px; }
+
+.galeriaImg {
+  background-color: #F5F5F5;
+  border-radius: 5px; }
+
+/*logo de whatsapp*/
+.botonWhatsApp {
+  width: 70px;
+  position: fixed;
+  top: 50%;
+  bottom: 10px;
+  right: 10px; }
+
+/*boostrap esta en chequeos*/
+/*chequeos*/
+li {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: black; }
+
+.li {
+  text-transform: uppercase;
+  font-size: 10px; }
+
+/*en pagina de estudios*/
+.padreEstudios {
+  display: flex;
+  padding-top: auto;
+  margin-top: auto;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  grid-area: padreEstudios; }
+
+.hijoEstudios {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid gray;
+  box-shadow: 5px 5px 5px;
+  text-align: center;
+  grid-area: hijoEstudios; }
+
+.imgEstudios {
+  width: 200px;
+  height: 200px; }
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+  color: black; }
+
+h3 h4 {
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase; }
+
+/*pag nosotros*/
+.nosotros {
+  text-align: center; }
+
+.card {
+  background-color: #dbdada;
+  padding: 20px;
+  margin: 20px; }
+
+/*contacto*/
+.form1 {
+  text-align: center;
+  background-color: #dbdada;
+  text-transform: uppercase;
+  padding: 30px; }
+
+.formulario {
+  height: 650px; }
+
+.boton {
+  background-color: #696969;
+  border: 1px solid black;
+  font-weight: bold;
+  color: #DCDCDC; }
+
+/*redes sociales*/
+.maps .logoMaps {
+  width: 50px;
+  height: 50px;
+  margin: 10px; }
+
+.google {
+  margin: 10px;
+  width: 40px;
+  height: 40px; }
+
+.facebook {
+  margin: 10px;
+  width: 40px;
+  height: 40px; }
+
+.logos {
+  width: 50px;
+  height: 50px; }
+
+.redes {
+  text-align: center;
+  background-color: white; }
+
+.card-group {
+  padding: 20px;
+  margin: 20px; }
+
+main {
+  margin: auto;
+  margin-top: 200px; }
+
+/*extend de pagina especialidades*/
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14 {
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 30%;
+  background-size: 100% auto; }
+
+/*medias para tablet y escritorio*/
+@media screen and (min-width: 720px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "img1 img2 " "img3 img4 " "img5 img6 " "img7 img8 " "img9 img10" "img11 img12" "img13 img14"; }
+  .li {
+    font-size: 1rem; }
+  .imagenChequeo {
+    height: 1000px; }
+  .padreEstudios {
+    display: flex;
+    flex-flow: row wrap; }
+  .especialidades {
+    font-size: 3rem; }
+  .chequeo {
+    display: none; } }
+
+@media screen and (min-width: 1360px) {
+  .galeria {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "img1 img2 img3" "img4 img5 img6" "img7 img8 img9" "img10 img11 img12" "img13 img14"; }
+  .li {
+    font-size: 1rem; }
+  .footer {
+    font-size: 40px; }
+  .imagenChequeo {
+    height: 1200px; }
+  .padreEstudios {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap; }
+  .chequeo {
+    display: none; } }
+
+/*pie de pagina*/
+footer {
+  margin-top: auto;
+  padding-top: auto;
+  background-color: #696969;
+  color: black;
+  text-align: center;
+  font-size: 1rem; }
+
+.footer {
+  color: white;
+  text-align: center;
+  font-size: 10px; }
+
+.logoFooter {
+  width: 30px;
+  height: 30px; }
+
+h5 {
+  font-size: 1rem;
+  text-align: center; }
+
+h6 {
+  text-align: center;
+  text-transform: uppercase; }

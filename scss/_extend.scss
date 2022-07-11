@@ -1,0 +1,52 @@
+/*extend de pagina especialidades*/
+
+
+.img1{
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 30%;
+    background-size: 100% auto;
+    
+}
+
+.img2{
+    @extend .img1
+}
+.img3{
+    @extend .img1
+}
+.img4{
+    @extend .img1
+}
+.img5{
+    @extend .img1
+}
+.img6{
+    @extend .img1
+}
+.img7{
+    @extend .img1
+}
+.img8{
+    @extend .img1
+}
+.img9{
+    @extend .img1
+}
+.img10{
+    @extend .img1
+}
+.img11{
+    @extend .img1
+}
+.img12{
+    @extend .img1
+}
+.img13{
+    @extend .img1
+}
+.img14{
+    @extend .img1
+}
