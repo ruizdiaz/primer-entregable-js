@@ -18,8 +18,27 @@ let nuevoSocio = new Socio(nombre, apellido, dni, );
 listaSocio.push(nuevoSocio);
 return nuevoSocio;
 }
+//eventos
+const ingrese = document.querySelector("#ingrese");
+const ingrese1 = document.querySelector("#ingrese1");
+const boton = document.querySelector("#btn");
+const text1 = document.querySelector("#texto1");
+const text = document.querySelector("#texto");
 
+//evento logica
+text.addEventListener("change",()=>{
+    console.log(`su nombre ingresado es ${text.value}`);
 
+  })
+text1.addEventListener("change",()=>{
+    console.log(`su apellido ingresado es ${text1.value}`);
+
+  })
+//submint
+  const formulario = document.querySelector("form");
+  formulario.addEventListener("submit", ()=> {
+    console.log("se envio el fomulario")
+  })
 
 //reservar turno 
 let lista = [];
