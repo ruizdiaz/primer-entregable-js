@@ -55,12 +55,48 @@
   <main>
     
     <!-- inicio de pagina con animacion de Aos-->
-    <div class="cardEspecialidades">
-      <img src="./img/especialidades.jpg" class="card-img" alt="se ve cuerpo de una doctora sentada">
-      <div>
+    
+      
+    
         <h1 class="especialidades animate__animated animate__backInDown">Nuestras especialidades</h1>
+    
+        <div class="contenedorTodo">
+          <div class="caja__trasera">
+              <div class="caja__trasera__login">
+              <h3>¿Ya sos socio de Sanitos?</h3>
+              <p>Inicia sesión para entrar a Sanitos</p>
+              <button id="btn__iniciar-sesion">Iniciar Sesión</button>
+          </div>
+          
+          <div class="caja__trasera__register">
+              <h3>¿Aún no sos socio de Sanitos?</h3>
+              <p>Regístrate para que puedas iniciar sesión</p>
+              <button id="btn__registrarse">Regístrarse</button>
+          </div>  
       </div>
-    </div>
+  
+          <!-- formulario de login y registro -->
+          <div class="contenedor__login-register">
+              <form id="formularioUsuario" action="" class="formulario__login">
+                  <h2>Iniciar Sesión</h2>
+                  <input type="text" placeholder="Correo Electronico">
+                  <input type="text" placeholder="Contraseña">
+                  <button>Entrar</button>
+                  </form>
+  
+              <!-- registro -->
+              <form action="" class="formulario__register">
+                  <h2>Regístrarse</h2>
+                  <input type="text" placeholder="Nombre Completo">
+                  <input type="text" placeholder="Correo Electronico">
+                  <input type="text" placeholder="Usuario">
+                  <input type="password" placeholder="Contraseña">
+                  <button>Registrarse</button>
+              </form>
+          </div>
+      </div>
+      
+    
     <section class="galeria">
       <div class="galeriaImg">
         <h2>Alergia</h2><img class="img1" src="./img/prueba de alergia (1).jpg" alt="foto de un nene con alergia">

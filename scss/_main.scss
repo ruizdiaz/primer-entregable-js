@@ -11,16 +11,6 @@ h1{
     text-transform: uppercase;
 }
 
-.especialidades {
-    font-size:1rem;
-    text-align: center;
-    height: 80px;
-    margin: 40px;
-    display:flex ;
-    justify-content: center;
-    align-items: center;
-
-}
 .btn{
     background-color: #DCDCDC;
     margin: 10px;
@@ -211,5 +201,147 @@ main{
     margin-top: 200px;
 }
 
+/*login*/
 
-    
+// body{
+//     background-image: url(../img/especialidades.jpg);
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     background-position: fixed;
+// }
+// main {
+//     width: 100%;
+//     padding: 20px;
+//     margin: auto;
+//     margin-top: 100px;
+// }
+.contenedorTodo{
+    width: 100%;
+    height: 500px;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+.caja__trasera{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: #696969;
+}
+.caja__trasera div{
+    margin: 100px 40px;
+    color: white;
+    transition: all 500ms;
+}
+
+.caja__trasera div p,
+.caja__trasera div button{
+    margin-top: 30px;
+}
+.caja__trasera div h3{
+    font-weight: 400px;
+    font-size: 26px;
+
+}
+.caja__trasera button{
+padding: 10px 40px;
+border: 2px solid #fff;
+background: transparent;
+font-size: 14px;
+font-weight: 600;
+cursor: pointer;
+color: white;
+outline: none;
+transition: all 300ms;    
+}
+.caja__trasera button:hover{
+background: #fff;
+color: #696969;
+}
+/*formulario*/
+
+.contenedor__login-register{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 390px;
+    position: relative;
+    top: -210px;
+    left: 10px;
+    transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+.contenedor__login-register form{
+    width: 100%;
+    padding: 80px 20px;
+    background: rgb(213, 212, 212);
+    position: absolute;
+    border-radius: 20px;
+
+}
+.contenedor__login-register form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #696969;
+
+}
+.contenedor__login-register form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #F2F2F2;
+    font-size: 16px;
+    outline: none;
+}
+
+.contenedor__login-register form button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    background: #696969;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.formulario__login{
+    opacity: 1;
+    display: block;
+
+}
+.formulario__register{
+    display: none;
+}
+/*responsive*/
+@media screen and (max-width: 850px){
+
+    main{
+    flex-direction: column;
+    height:100%;
+    margin-top: 0;
+}
+.caja__trasera{
+    max-width: 350px;
+    height: 300px;
+    flex-direction: column;
+    margin: auto;
+}
+.caja__trasera div{
+    margin: 0;
+    flex-direction: column;
+    position: absolute;
+}
+/* formulario */
+.contenedor__login-register{
+    max-width: 350px;
+    top: -10px;
+    left: -5px;
+    margin: auto;
+}
+    .contenedor__login-register form{
+        position: relative;
+    }
+}  
