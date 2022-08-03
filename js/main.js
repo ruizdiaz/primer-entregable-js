@@ -57,42 +57,6 @@ function register () {
     cajaTrasera_login.style.opacity = "1";
 }
 }
-// // inicio de sesion
-// const formularioUsuario = document.querySelector(`#formularioUsuario`);
-// const nombreFormulario = document.querySelector(`#nombre`);
-// const apellidoFormulario = document.querySelector(`#apellido`);
-// const saludoUsuario = document.querySelector(`#saludoUsuario`);
-// const logout = document.querySelector(`#logout`);
-// //<<<< variable
-// let nombre;
-// let apellido;
-
-// let nombreStorage = localStorage.getItem(`nombre`);
-// let apellidoStorage = localStorage.getItem(`apellido`);
-
-// // funcion
-
-// const imprimirSaludo = () => {
-//     saludoUsuario.innerHTML = `Hola ${nombre} ${apellido}`;
-//     formularioUsuario.style.display = `none`;
-// }
-// const revertirSaludo = () => {
-//     saludoUsuario.innerHTML = ``;
-//     formularioUsuario.style.display = `block`;
-// }
-
-// const ejecutarFormulario = () => {
-//     nombre = nombreFormulario.value;
-//     apellido = apellidoFormulario.value;
-//     localStorage.setItem(`nombre`, nombre);
-//     localStorage.setItem(`apellido`, apellido);
-
-//     imprimirSaludo();
-// }
-// const verificarStorage = () => {
-//     if (nombreStorage !== null && apellidoStorage !== null) {
-//         nombre = nombreStorage;
-//         apellido = apellidoStorage;
 
 
 
