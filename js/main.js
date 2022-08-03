@@ -1,5 +1,6 @@
 
 //Ingresar Socios A sanitos
+
 class Socio {
     constructor(nombre, apellido, dni) {
         this.nombre = nombre;
