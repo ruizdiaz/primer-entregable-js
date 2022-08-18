@@ -29,9 +29,30 @@ h1 {
   background-color: gainsboro;
   text-transform: uppercase; }
 
+/*libreria turnos*/
+textarea {
+  height: 35px; }
+
+.divTurno {
+  color: red; }
+
+.fieldsetTurno {
+  margin: 100px;
+  padding: 100px;
+  border-width: 20px; }
+
+.marked {
+  background-color: yellow;
+  border: 3px red solid; }
+
 .btn {
   background-color: #DCDCDC;
   margin: 10px; }
+
+id.btn button {
+  background-color: #DCDCDC;
+  margin: 10px;
+  border-bottom: none; }
 
 .card-img {
   width: 100%;
@@ -188,7 +209,6 @@ main {
   margin: auto;
   margin-top: 200px; }
 
-/*login*/
 .contenedorTodo {
   width: 100%;
   height: 500px;

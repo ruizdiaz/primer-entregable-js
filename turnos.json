@@ -1,0 +1,6 @@
+[
+    {"especialidad": "audiometria", "doctor": "Gomez Julian", "dia": "Lunes y Miercoles", "turno": "mañana"},
+    {"especialidad": "audiometria", "doctor": "Gutierrez Gaston", "dia": "Lunes y Jueves", "turno": "Tardea"},
+    {"especialidad": "audiometria", "doctor": "Alvarez Marina", "dia": "Martes y Miercoles", "turno": "mañana"}
+]
+
